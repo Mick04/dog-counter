@@ -25,7 +25,7 @@ function increment() {
     }
  };
 
-function store() {
+function save() {
     let outPut = ' - ' + count;
     console.log(outPut);
     //you can use this(innerText) but does't render 
@@ -35,13 +35,16 @@ function store() {
      *******************************/
     
     //or you can use this (textContent) whitch
-    // dose render all charactors
+    // does render all charactors
 
     saveEl.textContent += outPut;
     count = 0;
     countEl.innerText = count;
 }
-
+/*
+reset = () => {
+    saveEl.textContent = ' ';
+}*/
 let lap =1;
 logOut = () => {
     let total = lap ++;
