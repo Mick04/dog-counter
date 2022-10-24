@@ -49,6 +49,11 @@ button {
     background: rgb(17, 0, 100);
     border-radius: 10px;
 }
+#reset-btn {
+    border-color: black;
+    background: rgb(205, 95, 227);
+        border-radius: 10px;
+}
 #save-el {
     padding-top: 100;
         position: absolute;
